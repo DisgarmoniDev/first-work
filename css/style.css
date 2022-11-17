@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.mainTitle{
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+
+    width: 50%;
+    padding: 0 68px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+}
+
+.mainImg {
+    vertical-align: middle;
+    width: 49.5%;
+}
+
+
+
+.info {
+    margin-top: 40px;
+}
+
+.conteiner {
+    width: 80%;
+    margin: auto;
+}
+
+.BlockBig {
+    width: 110px;
+    height: 110px;
+    background: rgba(73, 182, 255, 0.5);
+}
+
+.infoBlockBig {
+    margin: 0 auto;
+}
+
+.infoBlockMiddle {
+    margin: 0 auto;
+}
+
+.infoTitle {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.BlockSmall {
+    width: 42px;
+    height: 42px;
+    background: rgba(73, 182, 255, 0.5);
+}
+
+.infoSubTitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.social {
+    margin-top: 40px;
+}
+
+.socialBlock{
+    margin-left: 130px;
+}
+
+.allSocial {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.allSocial::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+.socialBox{
+    width: 280px;
+    height: auto;
+    display: inline-block;
+}
+.socialBox1{
+    width: 410px;
+    height: auto;
+    display: inline-block;
+    padding-left: 130px;
+}
+
+
+.BlockMini {
+    width: 26px;
+    height: 26px;
+    background: rgba(73, 182, 255, 0.5);
+
+}
+
+.socialTitle {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.socialText {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+
+.BlockSmallMini {
+    width:68px;
+    height:68px;
+    background: rgba(73, 182, 255, 0.5);
+}
+
+.cosialApp {
+    margin-left: 130px;
+}
+
+
+
+
+
+.photo {
+    margin-top: 50px;
+}
+.photoBlock {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: 130px;
+}
+
+
+
+
+.photoConteiner {
+    display: flex;
+    
+}
+
+
+
+
+.photoSmall{
+    margin-left: 130px;
+    width: 35%;
+}
+.photoSmallImg{
+    width: 100%;
+}
+
+.photoBig {
+    margin-right: 130px;
+    margin-top: 150px;
+    padding-left: 20px;
+    width: 60%;
+    
+}
+.photoBigImg {
+    width: 100%;
+}
+
+.photoText {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: right;
+    margin-right: 130px;
+}
+
